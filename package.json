@@ -17,7 +17,7 @@
   ],
   "author": "Bannus Van der Kloot",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/bannus/wedding-website",
+  "homepage": "https://arianna.and.bann.us",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",

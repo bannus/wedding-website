@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/hero-min.jpg') center 8%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -278,7 +278,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 67%;
   }
   .hero-content img {
     width: 55%;
@@ -887,6 +887,9 @@ footer {
     color: #ff415c;
     font-size: 18px;
     margin: 0 2px;
+  }
+  p {
+    font-size: 13px;
   }
 }
 
