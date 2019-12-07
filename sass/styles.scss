@@ -107,6 +107,9 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+.jx-carousel-arrow {
+  opacity: 1 !important;
+}
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -310,7 +313,8 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(0, 0, 0, .7);
+  //background-color: rgba(74, 67, 125, 0.7); // purple
+  background-color: rgba(50, 73, 125, 0.8);
   z-index: 999;
   width: 100%;
 }
