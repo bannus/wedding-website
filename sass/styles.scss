@@ -292,7 +292,7 @@ Hero
   }
   .hero-content h2 {
     color: #fff;
-    font-family: 'Rochester', serif;
+    font-family: 'Alex Brush', serif;
     font-size: 65px;
     text-shadow: 0 0 8px #000, 0 0 8px #000;
   }
@@ -314,7 +314,9 @@ Hero
 .fixed {
   position: fixed;
   //background-color: rgba(74, 67, 125, 0.7); // purple
-  background-color: rgba(50, 73, 125, 0.8);
+  //background-color: rgba(50, 73, 125, 0.8); // blue from v1
+  //background-color: rgba(19, 109, 68, 0.8); // green from invite
+  background-color: rgba(6, 66, 15, 0.8); // custom green
   z-index: 999;
   width: 100%;
 }
