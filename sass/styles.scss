@@ -33,6 +33,7 @@ a {
   transition-duration: 200ms;
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
+  text-decoration: underline;
 }
 a:hover, a:focus {
   color: $accent-color-hover;
@@ -315,7 +316,7 @@ Hero
   //background-color: rgba(74, 67, 125, 0.7); // purple
   //background-color: rgba(50, 73, 125, 0.8); // blue from v1
   //background-color: rgba(19, 109, 68, 0.8); // green from invite
-  background-color: rgba(6, 66, 15, 0.8); // custom green
+  background-color: rgba(7, 49, 13, 0.8); // custom green
   z-index: 999;
   width: 100%;
 }
@@ -331,6 +332,7 @@ header {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
+    text-decoration: none;
 
     &.login {
       margin-right: 20px;
